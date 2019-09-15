@@ -8,7 +8,7 @@
 - lint-staged
 - commitlint
 - git commit hooks
-- import-sort
+- import-sort (research more)
 - editorconfig
 
 ### Typescript / flow / types
