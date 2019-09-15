@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Reuben Berghan <reuben.berghan@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/reubenberghan/reubenberghan/issues"
   },
   "dependencies": {
     "gatsby": "^2.13.59",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/reubenberghan/reubenberghan#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/reubenberghan/reubenberghan.git"
   },
   "scripts": {
     "build": "gatsby build",
