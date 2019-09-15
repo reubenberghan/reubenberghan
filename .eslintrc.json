@@ -6,6 +6,7 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "globals": {
+    "__PATH_PREFIX__": "readonly",
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
@@ -17,5 +18,7 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "react/prop-types": [1]
+  }
 }
