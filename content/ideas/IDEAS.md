@@ -4,5 +4,11 @@
 
 - eslint
 - prettier
-- husky / lint-staged / git commit hooks
+- husky
+- lint-staged
+- commitlint
+- git commit hooks
+- import-sort
 - editorconfig
+
+### Typescript / flow / types

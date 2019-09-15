@@ -36,6 +36,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "eslint": "^6.4.0",
     "eslint-plugin-react": "^7.14.3",
     "husky": "^3.0.5",
@@ -64,16 +66,17 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
     "**/*.{js,jsx,json,md}": [
-      "yarn format",
+      "prettier --write",
       "git add"
     ],
     "src/**/*.{js,jsx}": [
-      "yarn lint:fix",
+      "eslint --fix",
       "git add"
     ]
   }
