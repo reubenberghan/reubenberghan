@@ -74,7 +74,7 @@ class Layout extends React.Component {
 }
 
 Layout.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.node).isRequired,
+  children: PropTypes.node.isRequired,
   location: PropTypes.shape({
     pathname: PropTypes.string.isRequired,
   }),
